@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+
+    &.sticky {
+        position: sticky;
+        width: 100%;
+        top: 0;
+    }
+}
+
+nav {
+    & ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+    }
+}
